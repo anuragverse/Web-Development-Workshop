@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Resume</title>
+    </head>
+</html>
+<body">
+    <div style="text-align: center;">
+        <h1 style="color:black;"><em><u>Anurag Sinha</u></em></h1>
+        <p>Student</p>
+    </div>
+    <h2>About Me:</h2>
+    <p>I am Currently pursuing my Btech degree from <b><abbr title="Noida Institute of Engineering and Technology">NIET  </abbr> </b> Greater Noida.My hobbies are Watching Movies.</p>
+    <hr>
+    <h2>Experience:</h2>
+    <h3>None</h3>
+    <p>I have no industry experience as of now</p>
+    <hr>
+
+    <h2>Education:</h2>
+    <h3>Bachelors degree in Computer science Engineering with a major in Data Science</h3>
+    <p>Curently in 3rd year of my degree </p>
+    <hr>
+
+    <h2>Skills:</h2>
+    <ul>
+        <li>HTML,CSS,JAVASCRIPT</li>
+        <li>Responisve Web Design</li>
+        <li>Python </li>
+        <li>Java</li>
+        
+    </ul>
+    <hr>
+
+    <h2>Contact</h2>
+    <p>Email: abc@gmail.com</p>
+    <p>Phone :1234567899</p>
+    <p><a href="https://in.linkedin.com/in/anurag-sinha-722444257">Linkedin</a></p>
+</body>
