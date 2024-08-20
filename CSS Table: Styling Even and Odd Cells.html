@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Table: Styling Even and Odd Cells</title>
+<style>
+    tr:nth-child(even) {
+        background-color: aqua;
+
+    }
+
+    tr:nth-child(odd) {
+        background-color: rgb(162, 58, 231);
+    }
+
+    tr:nth-child(even) td:nth-child(even) {
+        color: rgb(2, 26, 240);
+        font-weight: bold;
+    }
+
+    tr:nth-child(odd) td:nth-child(odd) {
+        color: rgb(243, 247, 4);
+        font-style: italic;
+    }
+    </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>ROW 1,Cell 1</td>
+                <td>Row 1,Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 3,Cell 1</td>
+                <td>Row 3,Cell 2</td>
+            </tr>
+        </table>
+    </body>
+</html>
