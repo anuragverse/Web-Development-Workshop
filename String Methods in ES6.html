@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String Methods in ES6</title>
+    </head>
+    <body>
+        <h1>String Methods in ES6</h1>
+
+    <script>
+
+        const originalString = "Hello, World!";
+        document.write(`<p>Original String: "${originalString}"</p>`);
+
+        const stringLength = originalString.length;
+        document.write(`<p>String Length: "${stringLength} "</p>`);
+
+        const lowercaseString = originalString.toLowerCase();
+        document.write(`<p>Lowercase String: "${lowercaseString}"</p>`);
+
+        const uppercaseString = originalString.toUpperCase();
+        document.write(`<p>Uppercase String: "${uppercaseString}"</p>`);
+
+        const containsSubstring = originalString.includes("Hello");
+        document.write(`<p>Contains "Hello": ${containsSubstring}"</p>`);
+
+        const indexofSubstring = originalString.indexOf("World");
+        document.write(`<p>Index of "World": ${indexofSubstring} </p>`);
+
+        const substring =originalString.substring(7,12);
+        document.write(`<p>Substring: "${substring}"</p>`);
+
+        const replacedString = originalString.replace("World","Universe");
+        document.write(`<p>Replaced string: "${replacedString}"</p>`);
+
+        const splitstring = originalString.split(",");
+        document.write(`<p>Split string: "${JSON.stringify(splitstring)}"</p>`);
+
+        const stringWithWhitespace = "   Trim Me   ";
+        const trimmedString = stringWithWhitespace.trim();
+        document.write(`<p>Trimmed String: "${trimmedString}"</p>`);
+
+    </script>
+    </body>
+</html>
